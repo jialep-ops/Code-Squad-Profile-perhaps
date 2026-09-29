@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f5f2fa;
+    background-color: #f5f1fa;
     color: #222;
 }
 
@@ -9,7 +9,7 @@ body {
 /* Header */
 
 header {
-    background-color: #5b2c83;
+    background-color: #63358a;
     color: white;
     text-align: center;
     padding: 35px;
@@ -17,6 +17,10 @@ header {
 
 header h1 {
     margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 5px;
 }
 
 nav {
@@ -35,7 +39,7 @@ nav a:hover {
 }
 
 
-/* Main Page */
+/* Main page */
 
 main {
     width: 85%;
@@ -51,11 +55,11 @@ section {
 }
 
 h2 {
-    color: #5b2c83;
+    color: #63358a;
 }
 
 
-/* About Section */
+/* About Me */
 
 #about {
     display: flex;
@@ -67,22 +71,32 @@ h2 {
     width: 200px;
     height: 200px;
     object-fit: cover;
+
     border-radius: 50%;
-    border: 5px solid #8e5bb5;
+    border: 5px solid #8d62ad;
 }
 
-#about a {
+.about-text {
+    flex: 1;
+}
+
+.linkedin-button {
     display: inline-block;
-    background-color: #5b2c83;
+
+    background-color: #63358a;
     color: white;
-    padding: 8px 15px;
-    margin-right: 10px;
+
+    padding: 10px 18px;
+
     text-decoration: none;
+
     border-radius: 5px;
+
+    margin-top: 10px;
 }
 
-#about a:hover {
-    background-color: #7b45a5;
+.linkedin-button:hover {
+    background-color: #8051a3;
 }
 
 
@@ -97,21 +111,27 @@ h2 {
 .project-card {
     flex: 1;
     min-width: 240px;
+
     border: 2px solid #ddd;
+
     padding: 15px;
+
     border-radius: 8px;
+
     text-align: center;
 }
 
 .project-card img {
     width: 100%;
     height: 180px;
+
     object-fit: cover;
+
     border-radius: 5px;
 }
 
 .project-card h3 {
-    color: #5b2c83;
+    color: #63358a;
 }
 
 
@@ -122,28 +142,34 @@ h2 {
 }
 
 
-/* Button */
+/* JavaScript Button */
 
 button {
-    background-color: #5b2c83;
+    background-color: #63358a;
     color: white;
+
     border: none;
+
     padding: 10px 20px;
+
     border-radius: 5px;
+
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #7b45a5;
+    background-color: #8051a3;
 }
 
 
 /* Footer */
 
 footer {
-    background-color: #3d1c59;
+    background-color: #3e2057;
     color: white;
+
     text-align: center;
+
     padding: 20px;
 }
 
@@ -164,4 +190,5 @@ footer {
     main {
         width: 92%;
     }
+
 }
