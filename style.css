@@ -6,7 +6,7 @@ body {
 }
 
 
-/* Header */
+
 
 header {
     background-color: #63358a;
@@ -39,7 +39,7 @@ nav a:hover {
 }
 
 
-/* Main page */
+
 
 main {
     width: 85%;
@@ -59,7 +59,7 @@ h2 {
 }
 
 
-/* About Me */
+
 
 #about {
     display: flex;
@@ -114,7 +114,7 @@ h2 {
 }
 
 
-/* Projects */
+
 
 .projects {
     display: flex;
@@ -143,14 +143,14 @@ h2 {
 }
 
 
-/* Careers */
+
 
 #careers li {
     margin: 10px 0;
 }
 
 
-/* JavaScript Button */
+
 
 button {
     background-color: #63358a;
@@ -166,7 +166,7 @@ button:hover {
 }
 
 
-/* Footer */
+
 
 footer {
     background-color: #3e2057;
@@ -176,7 +176,7 @@ footer {
 }
 
 
-/* Mobile */
+
 
 @media (max-width: 700px) {
 
